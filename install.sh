@@ -4,6 +4,7 @@ base=${0##*/}
 
 #echo -e "S3_MOUNT_NAME='mount'\nS3_BUCKET_NAME='bucket'" > /etc/goofys.conf
 if [ -e /etc/goofys.conf ]; then
+  echo "/etc/goofys.conf is found."
   . /etc/goofys.conf
 else
   echo "/etc/goofys.conf is not found."
