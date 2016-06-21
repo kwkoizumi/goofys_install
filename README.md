@@ -1,0 +1,1 @@
+# goofys_install
